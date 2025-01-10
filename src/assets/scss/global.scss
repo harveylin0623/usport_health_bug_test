@@ -1,0 +1,152 @@
+$title-sizes: (
+  "h1": 165%, 
+  "h2": 145%, 
+  "h3": 135%, 
+  "h4": 125%, 
+  "h5": 115%,
+  "h6": 105%
+);
+
+.cms-editor-block {
+  width: 100%;
+  @each $element, $size in $title-sizes {
+    #{$element} {
+      font-size: $size;
+    }
+  }
+  ol, ul {
+    padding: revert;
+  }
+  ol, ul, li {
+    list-style: revert;
+  }
+  a {
+    color: revert;
+    text-decoration: revert;
+  }
+  table {
+    max-width: 100% !important;
+  }
+  figure.table {
+    float: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    td {
+      word-break: break-all;
+    }
+  }
+  table, th, td {
+    border-collapse: collapse;
+    border-color: #000;
+    border-width: 1px;
+    border-style: solid;
+  }
+  img, iframe {
+		display: inline-block;
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+.table-block {
+  width: 100%;
+  overflow-y: auto;
+  table {
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-align: center;
+    table-layout: fixed;
+    word-break: break-all;
+    word-wrap: break-word;
+    &.winners {
+      thead {
+        tr {
+          border-bottom: .5px solid #C9C9C9;
+          th {
+            padding: 0.75rem 0.25rem;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 0.75rem 0.25rem;
+          }
+        }
+      }
+    }
+    &.activity {
+      thead {
+        tr {
+          background: #F8F8F8;
+          th {
+            padding: 8px 2px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 8px 2px;
+          }
+        }
+      }
+      tr {
+        border-bottom: .5px solid #C9C9C9;
+      }
+    }
+    &.bodyWeightFat {
+      border-radius: .5rem;
+      overflow: hidden;
+      thead {
+        font-size: 1rem;
+        background: #797979;
+        color: white;
+        tr {
+          th {
+            font-weight: 400;
+            padding: 0.75rem;
+          }
+        }
+      }
+      tbody {
+        font-size: 14px;
+        line-height: 20px;
+        background: white;
+        tr {
+          td {
+            padding: 0.75rem 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-button {
+  background: transparent;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #F0F0F0;
+  border: 1px solid #F0F0F0;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: transparent;
+}
+
+.test {
+  color: aqua;
+}

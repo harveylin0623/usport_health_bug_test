@@ -1,0 +1,15 @@
+{
+  "i18n-ally.localesPaths": [
+    "src/locales"
+  ],
+  "i18n-ally.sourceLanguage": "zh-tw",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": [
+    "javascript",
+    "vue"
+  ],
+  "editor.tabSize": 2,
+  "css.lint.unknownAtRules": "ignore"
+}

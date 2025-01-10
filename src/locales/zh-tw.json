@@ -1,0 +1,64 @@
+{
+  "seo": {
+    "title": {
+      "projectName": "U-sport",
+      "home": "首頁",
+      "uWalk": "U-walk 步行任務"
+    }
+  },
+  "button": {
+    "ok": "確定",
+    "cancel": "取消",
+    "close": "關閉",
+    "eventDescription": "活動介紹"
+  },
+  "tabs": {
+    "pleaseNote": "注意事項",
+    "frequentlyAsked": "常見問題",
+    "contactInformation": "聯絡窗口",
+    "daily": "每日{type}",
+    "monthly": "每月{type}",
+    "walk_steps": "健走步數",
+    "stair_times": "爬梯次數",
+    "video_times": "觀看影片部數",
+    "month": "{month} 月",
+    "rank": "排行"
+  },
+  "table": {
+    "thead": {
+      "name": "姓名",
+      "stepCount": "有效步數",
+      "auditFloors": "審核樓層",
+      "stairsCount": "爬梯次數",
+      "clicksCount": "觀看部數",
+      "videoViewsCount": "觀看影片部數",
+      "management": "管理",
+      "recordDate": "紀錄日期",
+      "totalStepsForTheDay": "當日總步數",
+      "totalStairsForTheDay": "當日爬梯次數",
+      "totalVideoClicksOfTheDay": "當日觀看影片部數",
+      "member_username": "工號",
+      "member_name": "姓名",
+      "join_at": "加入日期",
+      "leave_at": "離隊日期",
+      "rank": "排名",
+      "teamName": "團體名稱"
+    }
+  },
+  "errorMessage": {
+    "pleaseLogInAgain": "請重新登入"
+  },
+  "modal": {
+    "title": {
+      "prompt": "提示",
+      "done": "已完成",
+      "notDone": "尚未完成",
+      "removeMemberConfirmation": "確定刪除隊員？",
+      "addConfirmation": "確定新增？"
+    },
+    "content": {
+      "registrationIsNotYetOpen": "尚未開放報名",
+      "eventHasNotYetBegun": "活動尚未開始"
+    }
+  }
+}

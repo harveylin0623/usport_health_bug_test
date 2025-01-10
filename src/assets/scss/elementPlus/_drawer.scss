@@ -1,0 +1,9 @@
+body.el-popup-parent--hidden:has(.basic-drawer) {
+  width: 100% !important;
+}
+
+.basic-drawer {
+  .el-drawer.btt {
+    border-radius: 0.75rem 0.75rem 0 0;
+  }
+}
