@@ -1,4 +1,4 @@
-import Uwalk from '@/pages/uwalk/Uwalk.vue'
+import Uwalk from '@/pages/uWalk/Uwalk.vue'
 
 const uwalk = [
   {
